@@ -1,0 +1,28 @@
+#mainDiv {
+  display: flex;
+	justify-content: center;
+}
+#mainDiv > div {
+  flex: 1; /*grow*/
+}
+#upvoteDiv {
+	order: 1;
+	display: flex;
+}
+#movieDiv {
+	order: 2;
+	margin:auto;
+	text-align: center;
+}
+#downvoteDiv {
+	order: 3;
+	display: flex;
+}
+
+#theUpvoteButton {
+	margin:auto
+}
+
+#theDownvoteButton {
+	margin:auto
+}

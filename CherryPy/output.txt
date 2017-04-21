@@ -1,0 +1,134 @@
+testing /movies/
+test_movies_index.py:62: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52553), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+test_movies_index.py:71: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52556), raddr=('127.0.0.1', 40013)>
+  r = requests.get(self.MOVIES_URL)
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52557), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.test_movies_index.py:29: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52558), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52560), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.test_movies_index.py:43: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52561), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+test_movies_index.py:55: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52563), raddr=('127.0.0.1', 40013)>
+  r = requests.get(self.MOVIES_URL + str(resp['id']))
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52564), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.
+----------------------------------------------------------------------
+Ran 3 tests in 6.279s
+
+OK
+
+testing /movies/:movie_id
+test_movies.py:61: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52565), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+test_movies.py:71: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52567), raddr=('127.0.0.1', 40013)>
+  r = requests.get(self.MOVIES_URL + str(movie_id))
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52568), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.test_movies.py:26: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52569), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52571), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.test_movies.py:36: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52572), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+test_movies.py:49: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52576), raddr=('127.0.0.1', 40013)>
+  r = requests.put(self.MOVIES_URL + str(movie_id), data = json.dumps(m))
+test_movies.py:54: ResourceWarning: unclosed <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52577), raddr=('127.0.0.1', 40013)>
+  r = requests.get(self.MOVIES_URL + str(movie_id))
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52578), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.
+----------------------------------------------------------------------
+Ran 3 tests in 6.021s
+
+OK
+
+testing /ratings/:movie_id
+test_ratings.py:26: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52579), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52581), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.
+----------------------------------------------------------------------
+Ran 1 test in 1.999s
+
+OK
+
+testing /recommendations/
+test_recommendations_index.py:26: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52583), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52585), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.
+----------------------------------------------------------------------
+Ran 1 test in 2.177s
+
+OK
+
+testing /recommendations/:user_id
+test_recommendations.py:28: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52586), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52588), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.test_recommendations.py:36: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52589), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+test_recommendations.py:50: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52591), raddr=('127.0.0.1', 40013)>
+  r = requests.get(self.RATINGS_URL + str(movie_id))
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52592), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.
+----------------------------------------------------------------------
+Ran 2 tests in 4.428s
+
+OK
+
+testing /users/
+test_users_index.py:65: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52594), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+test_users_index.py:74: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52596), raddr=('127.0.0.1', 40013)>
+  r = requests.get(self.USERS_URL)
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52597), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.test_users_index.py:26: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52598), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52600), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.test_users_index.py:44: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52601), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+test_users_index.py:58: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52603), raddr=('127.0.0.1', 40013)>
+  r = requests.get(self.USERS_URL + str(resp['id']))
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52604), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.
+----------------------------------------------------------------------
+Ran 3 tests in 6.052s
+
+OK
+
+testing /users/:users_id
+test_users.py:62: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52605), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+test_users.py:72: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52607), raddr=('127.0.0.1', 40013)>
+  r = requests.get(self.USERS_URL + str(user_id))
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52608), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.test_users.py:26: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52609), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52612), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.test_users.py:35: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52613), raddr=('127.0.0.1', 40013)>
+  self.reset_data()
+test_users.py:50: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52616), raddr=('127.0.0.1', 40013)>
+  r = requests.put(self.USERS_URL + str(user_id), data = json.dumps(m))
+test_users.py:55: ResourceWarning: unclosed <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52617), raddr=('127.0.0.1', 40013)>
+  r = requests.get(self.USERS_URL + str(user_id))
+/usr/lib/python3.4/unittest/case.py:577: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 52618), raddr=('127.0.0.1', 40013)>
+  testMethod()
+.
+----------------------------------------------------------------------
+Ran 3 tests in 5.907s
+
+OK
